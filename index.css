@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+.main-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.font400 {
+    font-weight: 400;
+}
+
+.subtext {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("neom-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 343px;
+    width: 720px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 2px black;
+}
+
+#top-activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 343px;
+    width: 720px;
+    background-image: url("top-activities-background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: 500;
+}
+
+#first-activity {
+    max-width: 230px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#second-activity {
+    max-width: 230px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#third-activity {
+    max-width: 230px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 160px;
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 30px;
+    color: whitesmoke;
+    background: linear-gradient(#1D3557, #a9ff41)
+}
+
+#my-message {
+    width: 260px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.bottom-border {
+    border-bottom: 5px solid #023047;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+#personal-image {
+    width: 178px;
+    height: 284px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
